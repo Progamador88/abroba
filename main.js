@@ -20,7 +20,7 @@ function setup() {
 function modelLoaded() {
   console.log("Modelo Carregado!")
   modelStatus = true;
-  objectDetector.detect(video, gotResult);
+
 }
 
 function gotResult(error, results) {
